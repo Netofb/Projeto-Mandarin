@@ -30,10 +30,6 @@ body {
 }
 /* MAIN */
 
-
-
-
-
 .main {
   max-width: 1200px;
   display: flex;
@@ -41,37 +37,36 @@ body {
   margin: 0 auto;
   flex-direction: column;
   align-items: center;
-  
 }
 .first-main {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.first-main-banner-main {
+.banner-main {
   width: 100%;
   max-width: 1200px;
 }
-.first-main-first-text {
+.first-text {
   margin: 1rem 0 0 0;
   font-family: var(--font);
   font-weight: var(--weight1);
   font-size: 2.8rem;
 }
-.first-main-second-text {
+.second-text {
   font-family: var(--font);
   color: var(--color-font-1);
   max-width: 70ch;
   font-size: 1.5rem;
 }
-.first-main-third-text {
+.third-text {
   font-family: var(--font);
   font-style: italic;
   color: var(--color-font-1);
   font-size: 1.2rem;
   margin: 1rem 0 0 0;
 }
-.first-main-linha-criativa {
+.linha-criativa {
   margin: 0.7rem 0 3rem 0;
   width: 100%;
   max-width: 30rem;
@@ -119,21 +114,23 @@ body {
   background: linear-gradient(to right, #75c7cf, #38b388);
 }
 
-  /* Footer */
-
+/* Footer */
 
 .footer {
   display: flex;
   width: 100%;
   flex-direction: column;
-  margin: 2rem auto; 
+  margin: 2rem auto;
   justify-content: center;
   max-width: 1400px;
 }
-.footer img{
+.footer img {
   width: 100%;
   max-width: 1400px;
-  margin:  0 auto;
+  margin: 0 auto;
+}
+.footer figure{
+  margin: 0 auto
 }
 .copy {
   margin: 2rem auto 0 auto;
@@ -147,163 +144,162 @@ body {
   color: var(--color-font-1);
 }
 
-
+/* Tela PC */
 @media (max-width: 1400px) {
-  .header{
+  .header {
     max-width: 1100px;
   }
-  .main{
-   max-width: 1000px;
+  .main {
+    max-width: 1000px;
   }
-  .second-main-news img{
+  .second-main-news img {
     width: 100%;
   }
-  .second-main-news h1{
+  .second-main-news h1 {
     max-width: 28ch;
     font-size: 2rem;
   }
-  .footer img{
+  .footer img {
     max-width: 1100px;
   }
-
 }
+
+/* Tela notebook - */
 @media (max-width: 1100px) {
-  .header{
+  .header {
     max-width: 900px;
   }
-  .main{
-   max-width: 700px; 
-  }
-  .second-main{
+  .main {
     max-width: 700px;
   }
- 
-  .second-main-news h1{
+  .second-main {
+    max-width: 700px;
+  }
+
+  .second-main-news h1 {
     max-width: 20ch;
     font-size: 1.6rem;
   }
-  .second-main-news img{  
+  .second-main-news img {
     width: 325px;
   }
-  .footer{
+  .footer {
     max-width: 900px;
   }
-  
 }
+
+/* Tablet */
 @media (max-width: 900px) {
-  .first-main-first-text{
-    font-size:  2rem;
+  .first-text {
+    font-size: 2rem;
   }
-  .first-main-second-text{
+  .second-text {
     font-size: 1rem;
   }
-  .header{
-    
+  .header {
     max-width: 700px;
   }
-  .main{
-   max-width: 500px;
- 
+  .main {
+    max-width: 500px;
   }
-  .second-main{
+  .second-main {
     max-width: 500px;
     flex-wrap: wrap;
   }
-  .second-main-news img{
+  .second-main-news img {
     width: 100%;
   }
-  .second-main-news h1{
+  .second-main-news h1 {
     font-size: 2rem;
   }
 
-  .footer img{
+  .footer img {
     max-width: 700px;
   }
- 
 }
+/* Telas menores */
 @media (max-width: 600px) {
-  .header{
+  .header {
     max-width: 400px;
   }
-  .main{
-   max-width: 350px ;
+  .main {
+    max-width: 350px;
   }
- 
-  .first-main-linha-criativa{
+
+  .linha-criativa {
     max-width: 300px;
   }
-  .first-main-first-text{
+  .first-text {
     font-size: 1rem;
   }
-  .first-main-second-text{
+  .second-text {
     font-size: 0.8rem;
   }
- 
-  .second-main-news img{
+
+  .second-main-news img {
     width: 100%;
   }
-  .second-main-news h1{
+  .second-main-news h1 {
     font-size: 1.6rem;
   }
-  .footer img{
+  .footer img {
     max-width: 400px;
   }
-  .copy{
+  .copy {
     font-size: 1rem;
     max-width: 400px;
-  
   }
-  .footer img{
-   width: 400px;
+  .footer img {
+    width: 400px;
   }
 }
-
+/* Telas mobile*/
 
 @media (max-width: 400px) {
-  .header{
+  .header {
     max-width: 300px;
   }
-  .main{
-   max-width: 250px ;
+  .main {
+    max-width: 250px;
   }
- 
-  .first-main-linha-criativa{
+
+  .linha-criativa {
     max-width: 200px;
   }
-  .first-main-first-text{
+  .first-text {
     font-size: 1rem;
   }
 
-  .second-main-news img{
+  .second-main-news img {
     width: 100%;
   }
-  .second-main-news h1{
+  .second-main-news h1 {
     font-size: 1rem;
   }
-  .second-main-linha-criativa{
+  .second-main-linha-criativa {
     max-width: 200px;
   }
-  .second-main-linha-criativa-2{
+  .second-main-linha-criativa-2 {
     max-width: 200px;
   }
-  .copy{
-
+  .copy {
     font-size: 0.7rem;
     max-width: 300px;
-
   }
-  .footer img{
-   width: 300px;
+  .footer img {
+    width: 300px;
   }
 }
-@media (max-width: 300px){
-  .header{
+
+/*Tela mobile - */
+@media (max-width: 300px) {
+  .header {
     max-width: 260px;
   }
-  .footer img{
+  .footer img {
     max-width: 260px;
   }
-  .copy{
+  .copy {
     max-width: 260px;
     margin: 1rem auto;
   }
